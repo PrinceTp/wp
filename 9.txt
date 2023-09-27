@@ -1,0 +1,15 @@
+// Prompt the user for their name and age
+var name = prompt("Enter your name:");
+var age = parseInt(prompt("Enter your age:"));
+
+// Check eligibility
+var eligibleToVote = false;
+if (age >= 18) {
+    eligibleToVote = true;
+}
+
+// Display person's details and eligibility
+console.log("Person's Details:");
+console.log("Name: " + name);
+console.log("Age: " + age);
+console.log("Eligible to Vote: " + (eligibleToVote ? "Yes" : "No"));

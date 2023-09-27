@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists with Background</title>
+</head>
+<body style="background-color: #f0f0f0;">
+
+    <h1 style="text-align: center;">Lists with Background</h1>
+
+    <!-- Ordered List with Inline CSS -->
+    <ol style="background-color: #fff; padding: 10px; border: 1px solid #ccc; margin: 20px; max-width: 400px; margin-left: auto; margin-right: auto;">
+        <li style="margin-bottom: 5px;">Item 1</li>
+        <li style="margin-bottom: 5px;">Item 2</li>
+        <li style="margin-bottom: 5px;">Item 3</li>
+    </ol>
+
+    <!-- Unordered List with Inline CSS -->
+    <ul style="background-color: #fff; padding: 10px; border: 1px solid #ccc; margin: 20px; max-width: 400px; margin-left: auto; margin-right: auto;">
+        <li style="margin-bottom: 5px;">Item A</li>
+        <li style="margin-bottom: 5px;">Item B</li>
+        <li style="margin-bottom: 5px;">Item C</li>
+    </ul>
+
+</body>
+</html>

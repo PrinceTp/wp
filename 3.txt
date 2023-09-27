@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Overview</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        img {
+            max-width: 100px;
+            max-height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Computer Overview</h1>
+    
+    <table>
+        <tr>
+            <th>Device</th>
+            <th>Description</th>
+            <th>Image</th>
+            <th>External Resource</th>
+        </tr>
+        <tr>
+            <td>Keyboard</td>
+            <td>A keyboard is an input device used to type text and send commands to the computer.</td>
+            <td><img src="keyboard.jpg" alt="Keyboard"></td>
+            <td><a href="https://en.wikipedia.org/wiki/Computer_keyboard" target="_blank">Learn more</a></td>
+        </tr>
+        <tr>
+            <td>Mouse</td>
+            <td>A mouse is an input device that allows users to interact with the computer's graphical user interface.</td>
+            <td><img src="mouse.jpg" alt="Mouse"></td>
+            <td><a href="https://en.wikipedia.org/wiki/Computer_mouse" target="_blank">Learn more</a></td>
+        </tr>
+        <tr>
+            <td>Monitor</td>
+            <td>A monitor is an output device that displays visual output from the computer.</td>
+            <td><img src="monitor.jpg" alt="Monitor"></td>
+            <td><a href="https://en.wikipedia.org/wiki/Computer_monitor" target="_blank">Learn more</a></td>
+        </tr>
+        <tr>
+            <td>Printer</td>
+            <td>A printer is an output device that produces physical copies of documents or images.</td>
+            <td><img src="printer.jpg" alt="Printer"></td>
+            <td><a href="https://en.wikipedia.org/wiki/Computer_printer" target="_blank">Learn more</a></td>
+        </tr>
+    </table>
+</body>
+</html>

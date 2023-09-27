@@ -1,0 +1,22 @@
+var num1 = parseFloat(prompt("Enter the first number:"));
+var operator = prompt("Enter an operator (+, -, *, /):");
+var num2 = parseFloat(prompt("Enter the second number:"));
+var result;
+
+if (operator === "+") {
+    result = num1 + num2;
+} else if (operator === "-") {
+    result = num1 - num2;
+} else if (operator === "*") {
+    result = num1 * num2;
+} else if (operator === "/") {
+    if (num2 !== 0) {
+        result = num1 / num2;
+    } else {
+        result = "Division by zero is not allowed.";
+    }
+} else {
+    result = "Invalid operator";
+}
+
+console.log("Result: " + result);

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Web Page</title>
+    <style>
+        /* Styles for headings with different fonts and background colors */
+        h1 {
+            font-family: 'Arial', sans-serif;
+            background-color: #007BFF;
+            color: white;
+            padding: 10px;
+        }
+
+        h2 {
+            font-family: 'Georgia', serif;
+            background-color: #FFC107;
+            color: #333;
+            padding: 8px;
+        }
+
+        /* Styles for paragraphs with different background colors */
+        p {
+            background-color: #f0f0f0;
+            padding: 5px;
+            margin: 10px 0;
+        }
+
+        /* Styles for images with transitions */
+        img {
+            width: 200px;
+            height: 200px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+        }
+
+        /* Styles for hyperlinks with different colors */
+        a:link {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #0056b3;
+        }
+
+        a:visited {
+            color: #8642C0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Our Styled Web Page</h1>
+
+    <p>This is a paragraph with a light gray background.</p>
+
+    <h2>Subheading with a Yellow Background</h2>
+
+    <p>Another paragraph with a light gray background.</p>
+
+    <!-- Image with hover transition -->
+    <img src="sample-image.jpg" alt="Sample Image">
+
+    <p>Visit our <a href="https://www.example.com">website</a> for more information.</p>
+</body>
+</html>

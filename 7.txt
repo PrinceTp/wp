@@ -1,0 +1,10 @@
+// Prompt the user for student details
+var name = prompt("Enter student's name:");
+var age = parseInt(prompt("Enter student's age:"));
+var grade = prompt("Enter student's grade:");
+
+// Display student details
+console.log("Student Details:");
+console.log("Name: " + name);
+console.log("Age: " + age);
+console.log("Grade: " + grade);

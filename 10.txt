@@ -1,0 +1,30 @@
+const prompt=require('prompt-sync')();
+// Define a function to perform a linear search on an array
+function linearSearch(arr, val)
+{
+for (let i = 0; i < arr.length; i++)
+{
+if (arr[i] === val)
+{
+21CSL481
+Dept. of CSE APSCE
+return i;
+}
+}
+return -1;
+}
+// Prompt the user for an array of numbers
+const arr = prompt("Enter an array of numbers, separated by 
+commas").split(",").map(Number);
+// Prompt the user for a value to search for
+const val = Number(prompt("Enter a value to search for"));
+// Call the linear search function and output the result
+const result = linearSearch(arr, val);
+if (result === -1)
+{
+console.log(`The value ${val} was not found in the array.`);
+}
+else
+{
+console.log(`The value ${val} was found at index ${result}.`);
+}
